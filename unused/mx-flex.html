@@ -1,0 +1,73 @@
+<!doctype html>
+<head>
+<title>Curtain UI</title>
+<link rel="stylesheet" href="material/material.min.css">
+<!--link rel="stylesheet" href="material/material.light_green-light_blue.min.css"-->
+<link rel="stylesheet" type="text/css" href="fa/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="material/icon.css">
+<link rel="stylesheet" type="text/css" href="pikaday/pikaday.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+<script src="jquery/jquery.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+
+<script src="material/material.min.js"></script>
+<script src="mithril/mithril.min.js"></script>
+
+<style>
+#parent_tab{
+  /*display:flex;*/
+  /*position:absolute;*/
+  /*height:400px;
+  margin:0;
+  padding:0;
+  width:90%;*/
+  height: 100%;
+}
+#main_tab{
+  /*position:relative;*/
+  /*float:left;*/
+  /*height:60%;*/
+  /*width:90%;*/
+  /*background-color:#A2A;*/
+  border-bottom: 2px solid #000;
+  overflow-y: auto;
+}
+#many_tabs{
+  /*position:relative;*/
+  /*float:left;*/
+  /*height:40%;*/
+  /*width:90%;*/
+  /*background-color:#BBB;*/
+}
+
+</style>
+
+</head>
+
+<body style="-webkit-app-region: drag">
+<script src="moment/moment.min.js"></script>
+<script src="pikaday/pikaday.js"></script>
+<script src="upgrade.js"></script>
+<script src="curtain.model.js"></script>
+<script src="field.js"></script>
+<script src="window_detail_flex.js"></script>
+<script src="main.js"></script>
+<script>
+function configure_resize(){
+    $("#main_tab").resizable({
+      handles: 'n, s',
+      maxHeight: $("#parent_tab").height()
+    });
+    $('#main_tab').resize(function(){
+     $('#many_tabs').height($("#parent_tab").height()-$("#main_tab").height());
+    });
+    $(window).resize(function(){
+     $('#many_tabs').height($("#parent_tab").height()-$("#main_tab").height());
+     //$('#div1').width($("#parent").width());
+    });
+}
+
+</script>
+</body>

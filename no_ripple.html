@@ -1,0 +1,118 @@
+<!doctype html>
+<head>
+<link rel="stylesheet" href="material/material.min.css">
+<!--link rel="stylesheet" href="material/material.light_green-light_blue.min.css"-->
+<link rel="stylesheet" type="text/css" href="fa/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="material/icon.css">
+<script src="material/material.min.js"></script>
+<script src="mithril/mithril.min.js"></script>
+</head>
+
+<body>
+  <script>
+
+  /// upgrade material elements upon mounted into the dom
+  function upgrade(element, isInitialized, context){
+      //context.retain = true
+      //if (!isInitialized){
+          componentHandler.upgradeElement(element);
+      //}
+  }
+
+  function upgrade_and_route(element, isInitialized, context){
+    componentHandler.upgradeElement(element);
+      element.onclick = function(e){
+        console.log("element clicked.. rerouting...")
+        e.preventDefault();
+        m.route(element.getAttribute("href"))
+      }
+  }
+
+function upgrade_tab(){
+  console.log("upgrading tab1");
+  var tab1 = document.getElementById("tab1");
+  var starks = document.getElementById("starks");
+  //componentHandler.upgradeElement(starks,  'MaterialButton');
+  //componentHandler.upgradeElement(starks,  'MaterialRipple');
+  componentHandler.upgradeElement(tab1,  'MaterialTabs');
+}
+
+
+
+function upgrade_ripple(element, isInitialized, context){
+  componentHandler.upgradeElement(element,  'MaterialButton');
+  componentHandler.upgradeElement(element,  'MaterialRipple');
+}
+
+
+var Tabs = {
+  view: function(){
+    return m(".mdl-tabs.mdl-js-tabs.mdl-js-ripple-effect", {id:"tab1", config:upgrade},[
+		m(".mdl-tabs__tab-bar", {config:upgrade},  [
+			m("a.mdl-tabs__tab.mdl-js-ripple-effect.is-active[href='#starks-panel']",{id:"starks", config:upgrade_ripple}, "Starks"),
+			m("a.mdl-tabs__tab.mdl-js-ripple-effect[href='#lannisters-panel']", {config:upgrade_ripple}, "Lannisters"),
+			m("a.mdl-tabs__tab.mdl-js-ripple-effect[href='#targaryens-panel']", {config:upgrade_ripple}, "Targaryens")
+		]),
+		m(".mdl-tabs__panel.is-active[id='starks-panel']", [
+			m("ul", [
+				m("li", "Eddard"),
+				m("li", "Catelyn"),
+				m("li", "Robb"),
+				m("li", "Sansa"),
+				m("li", "Brandon"),
+				m("li", "Arya"),
+				m("li", "Rickon")
+			])
+		]),
+		m(".mdl-tabs__panel[id='lannisters-panel']", [
+			m("ul", [
+				m("li", "Tywin"),
+				m("li", "Cersei"),
+				m("li", "Jamie"),
+				m("li", "Tyrion")
+			])
+		]),
+		m(".mdl-tabs__panel[id='targaryens-panel']", [
+			m("ul", [
+				m("li", "Viserys"),
+				m("li", "Daenerys")
+			])
+		]),
+    m("button", {onclick:upgrade_tab}, "Upgrade!")
+	])
+
+  }
+}
+
+
+  var Module1 = {
+    view: function(ctrl){
+      return m("div",
+            [
+              m("button",{config:upgrade, class:"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"}, "Module1"),
+              m("a",{href:"/", config:upgrade_and_route, class:"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"}, "Go back"),
+              m.component(Tabs)
+            ]
+          )
+    }
+  }
+
+
+
+  var Sample = {
+    view: function(ctrl){
+      return m("div",
+            [
+              m("button",{config:upgrade, class:"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"}, "Sample"),
+              m("a",{ href:"/module1", config:upgrade_and_route, class:"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"}, "Go to module1"),
+              m.component(Module1)
+            ]
+          )
+    }
+  }
+    m.route(document.body, "/",{
+      "/": Sample,
+      "/module1": Module1
+    });
+  </script>
+</body>

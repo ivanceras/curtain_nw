@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Curtain UI
+GenericName=Admin ui for PostgreSQL
+Comment=A smart admin ui tool for PostgreSQL
+Categories=Database;
+Exec=sh -c '"/home/lee/Dropbox/git-src/ivanceras/curtain_ui/start.sh"'
+Icon=/home/lee/Dropbox/git-src/ivanceras/curtain_ui/www/curtain.png

@@ -1,0 +1,83 @@
+<!doctype html>
+<head>
+<link rel="stylesheet" href="material/material.min.css">
+<!--link rel="stylesheet" href="material/material.light_green-light_blue.min.css"-->
+<link rel="stylesheet" type="text/css" href="fa/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="material/icon.css">
+<link rel="stylesheet" type="text/css" href="pikaday/pikaday.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="material/material.min.js"></script>
+<script src="mithril/mithril.min.js"></script>
+
+<style>
+.align_right{
+  /*margin-left: 300px;*/
+  margin-left: 95%;
+}
+</style>
+
+</head>
+
+<div>Hello</div>
+<script>
+
+function focus_text_field(element){
+  element.onclick = function(){
+    var field = document.getElementById('demo-menu-lower-left');
+    field.click();
+  }
+}
+
+var menu = {
+
+  view1: function(){
+      return m(".mdl-textfield.mdl-js-textfield.mdl-textfield--expandable.mdl-textfield--floating-label.is_dirty", [
+      		m("label.mdl-button.mdl-js-button.mdl-button--icon",{for:'search-expandable2'}, [
+      			m("i.material-icons", "search")
+      		]),
+      		m(".mdl-textfield__expandable-holder", [
+      			m("input.mdl-textfield__input", {value:" ", id:'search-expandable2', type:'text'}),
+      			m("label.mdl-textfield__label", {for:'search-expandable2'}, "user")
+      		]),
+      	])
+    },
+    view2: function(){
+        return m(".mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label.is_dirty", [
+
+        		m(".mdl-textfield__expandable-holder", [
+        			m("input.mdl-textfield__input", {value:"", id:'search-expandable2', type:'text'}),
+        			m("label.mdl-textfield__label", {for:'search-expandable2'}, "user")
+        		]),
+            m("label.mdl-button.mdl-js-button.mdl-button--icon",{for:'search-expandable2'}, [
+        			m("i.material-icons", "search")
+        		]),
+        	])
+      },
+      view: function(){
+          return m(".mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label",
+                [
+            			m("input.mdl-textfield__input", {value:" ", id:"demo-menu-lower-left", type:'text'}),
+            			m("label.mdl-textfield__label", {for:'search-expandable2'}, "user"),
+                  m("label.mdl-button.mdl-js-button.mdl-button--icon.align_right",{config:focus_text_field},
+                      [
+                  			m("i.material-icons", "search")
+                  		]
+                  ),
+                  m("ul.mdl-menu.mdl-menu--bottom-right.mdl-js-menu.mdl-js-ripple-effect[for='demo-menu-lower-left']", {id:"the_menu"}, [
+                		m("li.mdl-menu__item", "A long mother fuckin Some Action"),
+                		m("li.mdl-menu__item", "Another Action"),
+                		m("li.mdl-menu__item[disabled='']", "Disabled Action"),
+                		m("li.mdl-menu__item", "Yet Another Action"),
+                	])
+                ]
+          	)
+        }
+
+
+
+}
+
+m.mount(document.body, menu);
+
+  </script>

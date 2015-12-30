@@ -1,0 +1,967 @@
+{
+  "dao": [
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 530173000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Second hand Sony Playstation Box",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "ps2",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "3ece9e03-5f56-4114-8887-d6c730da8181",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 530173000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 531329000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Second hand Xbob360",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "xbox360",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "c2fe5870-ea34-4c6f-90ae-aa771facbf2f",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 531329000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 532419000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Slightly used GoPro Hero 3+",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "GoPro Hero 3+",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "3c03c6f0-7d91-4570-a882-0ef44c427b90",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 532419000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 533719000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Generic Electric Guitar",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "Electric Guitar",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "ee18e260-c4eb-47fd-86ad-9117f6d8ed06",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 533719000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 534881000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "2nd Nvidia Video card",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "GTX660 Ti videocard",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "6db712e6-cc50-4c3a-8269-451c98ace5ad",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 534881000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 535808000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Time Sports Stationary Bike",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "Stationary Bike",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "528c9e1e-5809-48f9-8718-9434fc73786b",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 535808000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 536720000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "Second HP printer",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "HP printer",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "5d171d4d-9b09-423c-80b4-94b2d852797d",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 536720000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 537629000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "# Specs:\n* Wide **screen** TV\n* 1920x1080\n\t* width  : 1920\n\t* height : 1080\n* 1080p",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "Skyworth 42\" LCD TV - This has never been used, The quick brown fox jumps over the lazy dog!",
+      "organization_id": null,
+      "owner_id": "3e51d5f9-5bff-4664-9946-47bf37973636",
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "7ec0545d-e40d-4bb0-8dc9-fa71d5118a54",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509434
+          },
+          "time": {
+            "secs": 55792,
+            "frac": 537629000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 51304,
+            "frac": 852919000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "testing insert of em",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "test product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "5b341a54-de39-4432-8c7f-7e77578f6f38",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 51304,
+            "frac": 852919000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53208,
+            "frac": 304071000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "test product",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert of em",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "6e382614-82dc-4bbe-a4b4-bfd412f3e9a1",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53208,
+            "frac": 304071000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53660,
+            "frac": 981077000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": null,
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "test product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "9fe575ac-1c10-4619-a75f-9f3259a847b8",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53660,
+            "frac": 981077000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53902,
+            "frac": 51473000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "test product",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert of em",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "1125f823-4c94-4eaf-87d6-6f38f4d17f0c",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509706
+          },
+          "time": {
+            "secs": 53902,
+            "frac": 51473000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 56544,
+            "frac": 559067000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "inserting 1 records",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert 1 record to product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "99687e9a-5ca6-48e7-96d6-0add0eb899d8",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 56544,
+            "frac": 559067000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 59008,
+            "frac": 829126000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "testing insert 1 record to product",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "inserting 1 records",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "80a841ff-5a6e-4cb8-8a24-2946d37be487",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 59008,
+            "frac": 829126000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 62797,
+            "frac": 761628000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "more info of the test product",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "product 1234",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "88497fc3-53ef-4e8c-b308-fd512a652e14",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 62797,
+            "frac": 761628000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63024,
+            "frac": 649171000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": null,
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "test product in dao",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "1307925d-b952-4c92-a25f-0edfa3153a0c",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63024,
+            "frac": 649171000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63333,
+            "frac": 463458000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "inserting 1 records",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert 1 record to product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "e5f5e690-68b4-4085-8b66-d3e1efb2f45e",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63333,
+            "frac": 463458000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63449,
+            "frac": 421381000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "testing insert 1 record to product",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "inserting 1 records",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "9f435dda-9c08-49be-bc07-75a5a70f75dd",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 63449,
+            "frac": 421381000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 80879,
+            "frac": 998370000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "inserting 1 records",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert 1 record to product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "fa2c58a3-66ef-4fcd-a818-90fbd9918261",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 80879,
+            "frac": 998370000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    },
+    {
+      "active": true,
+      "barcode": null,
+      "client_id": null,
+      "created": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 80886,
+            "frac": 840904000
+          }
+        },
+        "offset": {}
+      },
+      "created_by": null,
+      "currency_id": null,
+      "description": "inserting 1 records",
+      "help": null,
+      "info": null,
+      "is_service": false,
+      "name": "testing insert 1 record to product",
+      "organization_id": null,
+      "owner_id": null,
+      "parent_product_id": null,
+      "price": null,
+      "priority": null,
+      "product_id": "870f64f2-444f-4eb5-8888-3766d45c12d5",
+      "seq_no": null,
+      "tags": null,
+      "unit": null,
+      "updated": {
+        "datetime": {
+          "date": {
+            "ymdf": 16509722
+          },
+          "time": {
+            "secs": 80886,
+            "frac": 840904000
+          }
+        },
+        "offset": {}
+      },
+      "updated_by": null,
+      "upfront_fee": null,
+      "use_parent_price": false
+    }
+  ],
+  "total": null,
+  "page": null,
+  "page_size": null
+}
